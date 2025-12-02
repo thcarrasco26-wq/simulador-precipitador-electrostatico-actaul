@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Precipitador Electrostático - Versión Final</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="world">
+  <div class="stage"><h2>1. Entrada de aire sucio</h2><div class="chamber"></div></div>
+  <div class="stage"><h2>2. Ionización</h2><div class="chamber"></div></div>
+  <div class="stage">
+    <h2>3. Atracción a placas</h2>
+    <div class="chamber">
+      <div class="plate active" style="left:15%;"></div>
+      <div class="plate active" style="left:35%;"></div>
+      <div class="plate active" style="right:35%;"></div>
+      <div class="plate active" style="right:15%;"></div>
+    </div>
+  </div>
+  <div class="stage"><h2>4. ¡Aire limpio y purificado!</h2><div class="chamber"></div></div>
+</div>
+
+<div id="controls">
+  <button id="before">BEFORE</button>
+  <button id="reset">RESET</button>
+  <button id="next">NEXT</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
